@@ -14,7 +14,9 @@ body {
 }
 
 header {
-	padding: 0 200px;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 a {
@@ -23,6 +25,9 @@ a {
 }
 
 nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 	text-align: center;
 }
 
@@ -32,7 +37,15 @@ main img {
 }
 
 section {
-	padding: 10px;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 h1 {
@@ -46,8 +59,9 @@ h1 {
 footer {
 	clear: both;
 	text-align: center;
-	padding: 1em;
-	background-color: #eeeeee;
+	padding: 20px;
+	background-color: #FF957E;
+	border: 1px black solid;
 }
 
 .navlinks {
