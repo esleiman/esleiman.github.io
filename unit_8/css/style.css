@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Megrim');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 15px;
+	color:#303030;
+	line-height: 1.3
+}
+
+header {
+	padding: 20px;
+}
+
+a {
+	color: #606060;
+	text-decoration: none;
+}
+
+nav {
+	padding: 20px;
+	text-align: center;
+}
+
+nav a:link {
+	font-size: 1.333em;
+	padding: 2em;
+}
+
+main img {
+	max-width: 100%;
+	height: auto;
+}
+
+section {
+	padding: 20px;
+}
+
+article {
+	padding: 20px;
+}
+
+article img {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-family: 'Megrim', cursive;
+	font-weight: normal;
+	font-size: 4em;
+	text-align: center;
+	margin: auto;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+}
+
+label {
+	padding:0 32px;
+	font-size: 1em;
+	text-align: center;
+	display: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#three_column {
+	padding: 20px;
+}
+
+#one {
+	width: 33%;
+	padding: 20px;
+	float: left;
+}
+
+#two {
+	width: 33%;
+	padding: 20px;
+	float: left;
+}
+
+#three {
+	width: 33%;
+	padding: 20px;
+	float: left;
+}
+
+#toggle{
+	display: none;
+}
+
+@media only screen and (max-width: 935px){
+	nav a:link {
+		padding: 1.5em;
+	}
+
+	section {
+		padding: 15px;
+	}
+
+	article {
+		padding: 15px;
+	}
+}
+
+@media only screen and (max-width: 835px){
+	h1 {
+		font-size: 3em;
+	}
+
+	nav a:link {
+		font-size: 1.2em;
+		padding: 1em;
+	}
+
+	section {
+		padding: 10px;
+	}
+
+	article{
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width: 770px){
+	#one, #two, #three{
+		width: 100%;
+		float: none;
+		padding: none;
+	}
+}
+
+@media only screen and (max-width: 680px){
+
+	nav {
+		display: none;
+	}
+
+	nav a:link {
+		font-size: 1em;
+		display: block;
+		padding: 10px;
+		margin: 5px;
+	}
+
+	label{
+		display: block;
+	}
+
+	section{
+		padding 5px;
+	}
+
+	article{ 
+		padding: 5px;
+	 }
+
+	#toggle:checked + nav{
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 515px){
+	h1 {
+		font-size: 2.25em;
+	}
+}
+
